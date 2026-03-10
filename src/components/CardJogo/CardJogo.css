@@ -1,0 +1,52 @@
+main {
+  background-color: #1f095a;
+}
+
+.card-jogo {
+  background: #290b83;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+}
+
+.card-jogo h2 {
+  color: #2bdbac;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.card-imagem {
+  width: 200px;
+  height: 190px;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+.card-jogo p {
+  margin: 0.5rem 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.card-jogo small {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.onSale {
+  background: #16a34a;
+}
+
+.status-dot.notOnSale {
+  background: #dc2626;
+}

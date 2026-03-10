@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  padding: 10.7rem;
+  justify-content: center;
+} 
+
